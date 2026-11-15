@@ -2,22 +2,22 @@
 layout: page
 title: About
 kicker: "Who"
-description: "Falsifyer is the working name of one analyst writing open-source threat intelligence: what he covers, how he works, and where to find him."
+description: "Martín Eliseo Rodríguez (Falsifyer): threat intelligence analysis and the engineering that makes it hold up."
 permalink: /about/
 ---
 
-Falsifyer is the working name of one analyst, Martín Eliseo.
+**Martín Eliseo Rodríguez — Falsifyer.** Since 2025 in cyber threat intelligence, in a
+telecommunications security provider and in a malware-intelligence lab.
 
-Cyber threat intelligence: analysis, and the engineering that makes it hold up.
+My work has been phishing and malicious-infrastructure investigation, indicator enrichment,
+ATT&CK mapping, and the YARA and Sigma content that turns an assessment into a detection.
 
-I profile threat actors and analyse adversary tradecraft from open sources, and I care
-about the line between what the evidence supports and what it does not. The same discipline
-runs through the tooling I build: a judgement carries its sources and its confidence, and
-it says what would change it.
+Today I build the same thing with automation in the loop: human-reviewed rule generation,
+indicator pipelines and intelligence products that state their confidence and their gaps.
 
-- Analysis: [actor profiles and structured assessments](/) 
-- Engineering: [the method, made executable](/engineering/)
-- GitHub: [github.com/Falsifyer](https://github.com/Falsifyer)
-- LinkedIn: [linkedin.com/in/martin-eliseo](https://www.linkedin.com/in/martin-eliseo/)
+The method is public and tested — [the reference implementation](https://github.com/falsifyer/Defensible-CTI),
+[the engineering pages](/engineering/) and [the code behind them](https://github.com/falsifyer) —
+and every claim on them carries its source.
 
-All analysis here is based on open sources. Views are my own.
+Contact: [hola@martineliseo.es](mailto:hola@martineliseo.es). All analysis is based on open
+sources; the views are my own.
