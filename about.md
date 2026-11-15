@@ -6,7 +6,7 @@ description: "Martín Eliseo Rodríguez (Falsifyer): threat intelligence analysi
 permalink: /about/
 ---
 
-**Martín Eliseo Rodríguez — Falsifyer.** Since 2025 in cyber threat intelligence, in a
+**Martín Eliseo Rodríguez, Falsifyer:** since 2025 in cyber threat intelligence, in a
 telecommunications security provider and in a malware-intelligence lab.
 
 My work has been phishing and malicious-infrastructure investigation, indicator enrichment,
