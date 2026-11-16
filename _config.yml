@@ -16,6 +16,8 @@ header_pages:
   - method.md
 plugins:
   - jekyll-feed
+include:
+  - .well-known
 exclude:
   - README.md
   - scripts
