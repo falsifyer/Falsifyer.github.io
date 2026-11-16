@@ -1,3 +1,2 @@
-* text=auto eol=lf
 *.md linguist-documentation
-scripts/*.py linguist-vendored
+scripts/*.py linguist-detectable=false
