@@ -1,0 +1,15 @@
+# gitleaks configuration for the site.
+#
+# The default rules are kept. The only exclusion is the claim registry: each
+# record carries a "key" field by design, and the generic API-key rule reads
+# that shape as a credential.
+title = "site"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Claim registries: a 'key' field is the claim identifier, not a secret"
+paths = [
+  '''_data/claims/.*''',
+]
