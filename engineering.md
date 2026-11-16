@@ -10,10 +10,15 @@ I don't only consume platforms — I encode the intelligence method into tooling
 discipline is enforced by construction rather than remembered. Each tool below is a working
 program with tests, a continuous-integration job and a security boundary, not a script.
 
-They are now one suite of six commands in one workspace, running as a single chain:
+They are now one suite of seven commands in one workspace, running as a single chain:
 requirement (`pir`) → judgement (`cryptonym`) → ledger (`assessment`) → hunt plan
-(`huntplan`) → STIX product (`stixforge`) → gate (`sharegate`). One command runs the six in
-order on fictional data, which is also the regression test.
+(`huntplan`) → STIX product (`stixforge`) → gate (`sharegate`) → readable product
+(`ctisuite`). `make demo` runs the seven in order on fictional data, and every step after
+the first reads the file the previous one wrote: the chain is also the regression test.
+
+The same chain is available over MCP: `ctisuite-mcp` exposes prefixed tools for the seven
+steps plus `suite_report`, and each package ships its own `*-mcp` server as a development
+surface.
 
 The suite is public and MIT-licensed: [github.com/Falsifyer/Defensible-CTI](https://github.com/Falsifyer/Defensible-CTI),
 with its tests and CI runs. The corpus it is evaluated against stays private; the code that
